@@ -18,3 +18,6 @@ Outro exemplo bem simples, aproveitando a simplicidade das Arrow Functions: dobr
 A função .reduce() serve para reduzirmos o conteúdo de um Array para apenas um elemento. O exemplo mais clássico é somar todos os valores de um Array.
 (foto)
 A função que executamos recebe como primeiro parâmetro uma variável que irá acumular um valor e como segundo parâmetro teremos cada um dos elementos do Array a cada iteração.
+
+O método de spread () em JavaScript é uma maneira prática e poderosa de manipular arrays e objetos. Ele é usado para expandir os elementos de um array ou as propriedades de um objeto em lugares onde múltiplos elementos ou pares chave-valor são esperados. Aqui estão algumas das principais utilidades do spread operator:
+
