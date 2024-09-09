@@ -21,3 +21,14 @@ A função que executamos recebe como primeiro parâmetro uma variável que irá
 
 O método de spread () em JavaScript é uma maneira prática e poderosa de manipular arrays e objetos. Ele é usado para expandir os elementos de um array ou as propriedades de um objeto em lugares onde múltiplos elementos ou pares chave-valor são esperados. Aqui estão algumas das principais utilidades do spread operator:
 
+1. Clonagem de Arrays e Objetos: Ele permite criar uma cópia superficial de um array ou objeto. Isso é útil para evitar modificações inesperadas no array ou objeto original. 
+(foto) 
+2. Combinação de Arrays e Objetos: Você pode combinar vários arrays ou objetos em um novo array ou objeto.
+(foto)
+3. Inserção de Elementos em Arrays: Ele permite adicionar elementos a um array em um ponto específico.
+(foto)
+4. Desestruturação de Arrays e Objetos: Em combinação com a desestruturação, o spread pode ser usado para capturar o restante dos elementos ou propriedades.
+(foto)
+5. Funções Variádicas: Ele pode ser usado para passar elementos de um array como argumentos para uma função.
+(foto)
+
