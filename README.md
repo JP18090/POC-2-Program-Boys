@@ -14,3 +14,5 @@ Também pode ser interessante se quisermos alterar a estrutura dos objetos do Ar
 (foto)
 Outro exemplo bem simples, aproveitando a simplicidade das Arrow Functions: dobrar o valor dos números de um Array:
 (foto)
+
+A função .reduce() serve para reduzirmos o conteúdo de um Array para apenas um elemento. O exemplo mais clássico é somar todos os valores de um Array.
