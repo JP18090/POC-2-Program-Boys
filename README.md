@@ -16,3 +16,5 @@ Outro exemplo bem simples, aproveitando a simplicidade das Arrow Functions: dobr
 (foto)
 
 A função .reduce() serve para reduzirmos o conteúdo de um Array para apenas um elemento. O exemplo mais clássico é somar todos os valores de um Array.
+(foto)
+A função que executamos recebe como primeiro parâmetro uma variável que irá acumular um valor e como segundo parâmetro teremos cada um dos elementos do Array a cada iteração.
