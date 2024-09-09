@@ -3,7 +3,7 @@ O .sort() serve para ordenar os elementos de Arrays. O correto é passar uma fun
 Podemos utilizar em elementos mais complexos:
 (foto)
 
-Como o próprio nome indica, serve para filtrarmos os elementos de um Array. Passamos para ele uma função. Se essa função retornar true, o elemento será inserido no novo Array que será criado. Se a função retornar false, o elemento será ignorado.
+O .filter() como o próprio nome indica, serve para filtrarmos os elementos de um Array. Passamos para ele uma função. Se essa função retornar true, o elemento será inserido no novo Array que será criado. Se a função retornar false, o elemento será ignorado.
 (foto)
 
 Nós utilizamos o .map() quando queremos fazer alguma modificação nos elementos de um Array.
