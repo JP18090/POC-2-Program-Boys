@@ -1,5 +1,5 @@
 # POC-2-Program-Boys
-O .sort() serve para ordenar os elementos de Arrays. O correto é passar uma função que compare dois elementos. Assim, podemos ordenar um Array com qualquer tipo de objeto, ordenando por qualquer propriedade.A função de ordenação sempre recebe dois elementos. Se o primeiro for menor, devemos retornar um número menor que 0. Se o primeiro for maior, devemos retornar um número maior do que 0. Se forem iguais, retornamos 0.
+O .sort() serve para ordenar os elementos de Arrays. O correto é passar uma função que compare dois elementos. Assim, podemos ordenar um Array com qualquer tipo de objeto, ordenando por qualquer propriedade. A função de ordenação sempre recebe dois elementos. Se o primeiro for menor, devemos retornar um número menor que 0. Se o primeiro for maior, devemos retornar um número maior do que 0. Se forem iguais, retornamos 0.
 Podemos utilizar em elementos mais complexos:
 (foto)
 
