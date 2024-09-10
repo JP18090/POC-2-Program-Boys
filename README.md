@@ -17,7 +17,7 @@ A função .reduce() serve para reduzirmos o conteúdo de um Array para apenas u
 A função que executamos recebe como primeiro parâmetro uma variável que irá acumular um valor e como segundo parâmetro teremos cada um dos elementos do Array a cada iteração.
 
 5. Spread
-O método de spread () em JavaScript é uma maneira prática e poderosa de manipular arrays e objetos. Ele é usado para expandir os elementos de um array ou as propriedades de um objeto em lugares onde múltiplos elementos ou pares chave-valor são esperados. Aqui estão algumas das principais utilidades do spread operator:
+O método de spread () em JavaScript é uma maneira prática e poderosa de manipular arrays e objetos. Ele é usado para expandir os elementos de um array ou as propriedades de um objeto em lugares onde múltiplos elementos ou pares chave-valor são esperados. Aqui estão algumas das principais utilidades do spread operator: <br> 
    5.1. Clonagem de Arrays e Objetos: Ele permite criar uma cópia superficial de um array ou objeto. Isso é útil para evitar modificações inesperadas no array ou objeto original.
    5.2. Combinação de Arrays e Objetos: Você pode combinar vários arrays ou objetos em um novo array ou objeto.
    5.3. Inserção de Elementos em Arrays: Ele permite adicionar elementos a um array em um ponto específico.
