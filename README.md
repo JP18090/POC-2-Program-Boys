@@ -10,12 +10,12 @@ Alguns do arrays mais importantes e utilizados são:
 Podemos utilizar em elementos mais complexos:
 (foto)
 
-3. Filter
+2. Filter
    
 O .filter() como o próprio nome indica, serve para filtrarmos os elementos de um Array. Passamos para ele uma função. Se essa função retornar true, o elemento será inserido no novo Array que será criado. Se a função retornar false, o elemento será ignorado.
 (foto)
 
-4. Map
+3. Map
    
 Nós utilizamos o .map() quando queremos fazer alguma modificação nos elementos de um Array.
 (foto)
@@ -26,11 +26,13 @@ Também pode ser interessante se quisermos alterar a estrutura dos objetos do Ar
 Outro exemplo bem simples, aproveitando a simplicidade das Arrow Functions: dobrar o valor dos números de um Array:
 (foto)
 
-5. Reduce
+4. Reduce
 
 A função .reduce() serve para reduzirmos o conteúdo de um Array para apenas um elemento. O exemplo mais clássico é somar todos os valores de um Array.
 (foto)
 A função que executamos recebe como primeiro parâmetro uma variável que irá acumular um valor e como segundo parâmetro teremos cada um dos elementos do Array a cada iteração.
+
+5. Spread
 
 O método de spread () em JavaScript é uma maneira prática e poderosa de manipular arrays e objetos. Ele é usado para expandir os elementos de um array ou as propriedades de um objeto em lugares onde múltiplos elementos ou pares chave-valor são esperados. Aqui estão algumas das principais utilidades do spread operator:
 
