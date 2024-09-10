@@ -17,41 +17,40 @@
     <h3>1. Sort</h3>
     <p>O .sort() serve para ordenar os elementos de Arrays. O correto é passar uma função que compare dois elementos. Assim, podemos ordenar um Array com qualquer tipo de objeto, ordenando por qualquer propriedade. A função de ordenação sempre recebe dois elementos. Se o primeiro for menor, devemos retornar um número menor que 0. Se o primeiro for maior, devemos retornar um número maior do que 0. Se forem iguais, retornamos 0.</p>
     <p>Podemos utilizar em elementos mais complexos:</p>
-    <img src="" alt="">
+    <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282871855774040187/image.png?ex=66e0ef05&is=66df9d85&hm=3567dedabe9084004f741b52504b9566e8c1bb16eebed3675610945d6cc1db44&" alt="">
 
     <h3>2. Filter</h3>
-    <p>O .filter(), como o próprio nome indica, serve para filtrarmos os elementos de um Array. Passamos para ele uma função. Se essa função retornar <code>true</code>, o elemento será inserido no novo Array que será criado. Se a função retornar <code>false</code>, o elemento será ignorado.</p>
-    <img src="" alt="">
+    <p>O .filter(), como o próprio nome indica, serve para filtrarmos os elementos de um Array. Passamos para ele uma função. Se essa função retornar true, o elemento será inserido no novo Array que será criado. Se a função retornar false, o elemento será ignorado.</p>
+    <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282871187843715186/image.png?ex=66e0ee65&is=66df9ce5&hm=dc656bcd04445d4ba1e6195bdcc960a7371461376b4fec58be11a21d860e69c3&" alt="">
 
     <h3>3. Map</h3>
     <p>Nós utilizamos o .map() quando queremos fazer alguma modificação nos elementos de um Array.</p>
-    <img src="" alt="">
-    <p>No exemplo acima alteramos o valor de uma propriedade de cada um dos elementos do Array. Na última linha, precisamos executar o comando <code>return</code> para indicar o que será retornado para o Array. No final, teremos um novo Array.</p>
-    <img src="" alt="">
+    <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282869357147455579/image.png?ex=66e0ecb1&is=66df9b31&hm=dd50ff7dcd70debfa4ca7b6c4bb7cdcc91058c169d82f1a314d8032a1ec69d24&" alt="">
+    <p>No exemplo acima alteramos o valor de uma propriedade de cada um dos elementos do Array. Na última linha, precisamos executar o comando return para indicar o que será retornado para o Array.</p>
     <p>Também pode ser interessante se quisermos alterar a estrutura dos objetos do Array. Podemos pegar o exemplo de cima: suponha que a gente agora queira um Array com o nome de todos os usuários da nossa lista. Teríamos o seguinte código:</p>
-    <img src="" alt="">
+    <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282870575269810176/image.png?ex=66e0edd3&is=66df9c53&hm=00f20238e805a0dc471d3e3d2e3a66789d6fbde8221a2981d70aa9e75fc92bdc&" alt="">
     <p>Outro exemplo bem simples, aproveitando a simplicidade das Arrow Functions: dobrar o valor dos números de um Array:</p>
-    <img src="" alt="">
+    <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282870603220516946/image.png?ex=66e0edda&is=66df9c5a&hm=0c2031e7000d447d7fbdcad238545d7cdc89df490e1848f40bdf89d79ede830f&" alt="">
 
     <h3>4. Reduce</h3>
     <p>A função .reduce() serve para reduzirmos o conteúdo de um Array para apenas um elemento. O exemplo mais clássico é somar todos os valores de um Array.</p>
-    <img src="" alt="">
+    <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282872528276164608/image.png?ex=66e0efa5&is=66df9e25&hm=a4807b7c4a66a3fc2945316a00ad6bff5402ebf1faa0b53382c1f3a263160255&" alt="">
     <p>A função que executamos recebe como primeiro parâmetro uma variável que irá acumular um valor e como segundo parâmetro teremos cada um dos elementos do Array a cada iteração.</p>
 
-    <h2>Spread Operator</h2>
+    <h2>5. Spread </h2>
     <p>O método de spread() em JavaScript é uma maneira prática e poderosa de manipular arrays e objetos. Ele é usado para expandir os elementos de um array ou as propriedades de um objeto em lugares onde múltiplos elementos ou pares chave-valor são esperados. Aqui estão algumas das principais utilidades do spread operator:</p>
 
     <ul>
-        <li><strong>Clonagem de Arrays e Objetos:</strong> Ele permite criar uma cópia superficial de um array ou objeto. Isso é útil para evitar modificações inesperadas no array ou objeto original.</li>
-        <img src="" alt="">
-        <li><strong>Combinação de Arrays e Objetos:</strong> Você pode combinar vários arrays ou objetos em um novo array ou objeto.</li>
-        <img src="" alt="">
-        <li><strong>Inserção de Elementos em Arrays:</strong> Ele permite adicionar elementos a um array em um ponto específico.</li>
-        <img src="" alt="">
-        <li><strong>Desestruturação de Arrays e Objetos:</strong> Em combinação com a desestruturação, o spread pode ser usado para capturar o restante dos elementos ou propriedades.</li>
-        <img src="" alt="">
-        <li><strong>Funções Variádicas:</strong> Ele pode ser usado para passar elementos de um array como argumentos para uma função.</li>
-        <img src="" alt="">
+        <li><strong>5.1. Clonagem de Arrays e Objetos:</strong> Ele permite criar uma cópia superficial de um array ou objeto. Isso é útil para evitar modificações inesperadas no array ou objeto original.</li>
+        <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282873377761132646/image.png?ex=66e0f06f&is=66df9eef&hm=2f4fc6aaee3e50f22c7c75095b239b5e335f1ec20af7ab4c3667de62d1c64b27&" alt="">
+        <li><strong>5.2 Combinação de Arrays e Objetos:</strong> Você pode combinar vários arrays ou objetos em um novo array ou objeto.</li>
+        <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282873621974351912/image.png?ex=66e0f0aa&is=66df9f2a&hm=029d5feda73a8182a247b3d0fa41048f624dffe2ecf94b6cedbf76535c7eec4e&" alt="">
+        <li><strong>5.3. Inserção de Elementos em Arrays:</strong> Ele permite adicionar elementos a um array em um ponto específico.</li>
+        <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282874199748116491/image.png?ex=66e0f133&is=66df9fb3&hm=06bfe42dd125958dac473ea2d67e9430dcc8fb96aaf4853ccd58ccebef128a02&" alt="">
+        <li><strong>5.4. Desestruturação de Arrays e Objetos:</strong> Em combinação com a desestruturação, o spread pode ser usado para capturar o restante dos elementos ou propriedades.</li>
+        <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282874221843709962/image.png?ex=66e0f139&is=66df9fb9&hm=17ea323e9c4482910d623db693d465d33b84f3c7bf9b0ab481f17b75585396df&" alt="">
+        <li><strong>5.5. Funções Variádicas:</strong> Ele pode ser usado para passar elementos de um array como argumentos para uma função.</li>
+        <img src="https://cdn.discordapp.com/attachments/752989824561971404/1282874255377174578/image.png?ex=66e0f141&is=66df9fc1&hm=a68bad4348a4bf783cfc4e933c4ede29b52421d83766e60c2c7739a57b057e64&" alt="">
     </ul>
 
 </body>
