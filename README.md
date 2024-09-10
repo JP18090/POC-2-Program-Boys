@@ -1,5 +1,4 @@
 # POC-2-Program-Boys
-# POC-2-Program-Boys
 
 Arrays em JavaScript são usados para armazenar múltiplos valores em uma única variável. Eles permitem agrupar vários dados (números, strings, objetos, etc.) em uma estrutura de dados ordenada e acessível por índices. Os arrays são úteis para organizar listas e realizar operações como adicionar, remover ou modificar itens.
 
